@@ -18,7 +18,8 @@ mvn clean install -e -DskipTests=true || ErrorHandler "Build Failed for test"
 
 echo $(pwd) 
 
-cp target/* ../resource-app/ 
+cp -r target/* ../resource-app/ #just to deal with newline character
+
 
 cd ../resource-app/ 
  

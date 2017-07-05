@@ -24,5 +24,5 @@ cp -r target/* ../resource-app/ #just to deal with newline character
 cd ../resource-app/ 
  
 echo $(ls) 
-echo $(pwd) 
-
+echo $(pwd) #
+# just to avoid errors while transfering from my mac to ubuntu 

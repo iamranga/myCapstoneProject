@@ -3,7 +3,6 @@
 #echo "cloning done"
 sudo su
 echo "About to print pwd1 value -"
-chmod 777 resource-app
 echo $(pwd)
 cd rr_git
 echo "About to print pwd2 value -"

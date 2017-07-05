@@ -1,4 +1,4 @@
-#!bin/bash
+#!/lib/bash
 #git clone rr_git
 #echo "cloning done"
 echo "About to print pwd1 value -"
@@ -18,12 +18,10 @@ mvn clean install -e -DskipTests=true || ErrorHandler "Build Failed for test"
 
 echo $(pwd) 
 
+cp target/* ../resource-app/
+
 cd ../resource-app/ 
  
 echo $(ls) 
 echo $(pwd) 
 
-cd / 
-
-echo $(ls) 
-echo $(pwd) 

@@ -18,7 +18,7 @@ mvn clean install -e -DskipTests=true || ErrorHandler "Build Failed for test"
 
 echo $(pwd) 
 
-cd ../resource-app/target/ 
+cd ../resource-app/ 
  
 echo $(ls) 
 echo $(pwd) 

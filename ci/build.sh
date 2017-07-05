@@ -24,7 +24,7 @@ cp manifest.yml ../resource-app/ #deal with newline in mac to ubuntu
 
 cd ../resource-app/ #
 
-apt install zip #
+apt-get install zip #
 
 zip -r resource-app.zip . #
  

@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #git clone rr_git
 #echo "cloning done"
-set -e -x
 sudo su
 echo "About to print pwd1 value -"
 echo $(pwd)

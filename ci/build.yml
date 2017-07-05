@@ -15,4 +15,4 @@ outputs:
   
 run:
  path: sh
- args: ["CapstoneProject/ci/build.sh"]
+ args: ["rr_git/ci/build.sh"]

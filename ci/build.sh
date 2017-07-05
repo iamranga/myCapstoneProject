@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-git clone myCapstoneProject
+git clone rr_git
 echo "cloning done"
 echo "About to print pwd1 value -"
 echo $(pwd)

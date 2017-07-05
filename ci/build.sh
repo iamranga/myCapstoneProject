@@ -20,8 +20,13 @@ echo $(pwd)
 
 cp -r target/* ../resource-app/ #just to deal with newline character
 
+cp manifest.yml ../resource-app/ #deal with newline in mac to ubuntu
 
-cd ../resource-app/ 
+cd ../resource-app/ #
+
+apt install zip #
+
+zip -r resource-app.zip . #
  
 echo $(ls) 
 echo $(pwd) #

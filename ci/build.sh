@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #git clone rr_git
 #echo "cloning done"
 echo "About to print pwd1 value -"

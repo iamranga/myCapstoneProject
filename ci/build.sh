@@ -8,6 +8,8 @@ chmod 777 rr_git
 
 chmod 777 resource-app 
 
+echo $(ls)
+
 cd rr_git 
 
 echo "About to print pwd2 value -"
@@ -18,6 +20,10 @@ echo $(pwd)
 
 cd ../resource-app/target/ 
  
-echo $(ls)
-echo "------installation done---------"
-echo $(pwd)
+echo $(ls) 
+echo $(pwd) 
+
+cd / 
+
+echo $(ls) 
+echo $(pwd) 

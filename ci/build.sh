@@ -26,7 +26,7 @@ cd ../resource-app/ #
 
 tar -czf ../resource-app-0.1.tar.gz ../resource-app/ #
 
-cd ../ #
+cp ../resource-app-0.1.tar.gz ./ #
  
 echo $(ls) 
 echo $(pwd) #

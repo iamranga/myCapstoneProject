@@ -24,7 +24,7 @@ cp manifest.yml ../resource-app/ #deal with newline in mac to ubuntu
 
 cd ../resource-app/ #
 
-tar -czvf resource-app.zip ./ #
+tar -czvf resource-app-0.1.zip ./ #
  
 echo $(ls) 
 echo $(pwd) #

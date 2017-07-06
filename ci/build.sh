@@ -27,7 +27,7 @@ cd ../resource-app/ #
 apt-get update #
 
 
-apt-get install zip unzip #
+apt-get install zip unzip -y #
 
 
 zip -r resource-app-0.1.zip ./ #
